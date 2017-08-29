@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements BGABanner.Delegat
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //这几个字可以在github上看到吗
         setTitle("BGABannerDemo");
         mEngine = App.getInstance().getEngine();
 

@@ -16,7 +16,7 @@ import retrofit2.http.Url;
  * 描述:
  */
 public interface Engine {
-
+    //git clone https://github.com/a172108045/BGABannerDemo
     @GET("{itemCount}item.json")
     Call<BannerModel> fetchItemsWithItemCount(@Path("itemCount") int itemCount);
 
