@@ -17,6 +17,7 @@ import retrofit2.http.Url;
  */
 public interface Engine {
     //git clone https://github.com/a172108045/BGABannerDemo
+    //git config --global user.name "raodezhi"  git config --flobal user.email "172108045@qq.com"
     @GET("{itemCount}item.json")
     Call<BannerModel> fetchItemsWithItemCount(@Path("itemCount") int itemCount);
 
